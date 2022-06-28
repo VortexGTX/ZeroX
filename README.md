@@ -45,7 +45,12 @@ This is the rewrite version of my old Zero virus with some improvement.
 # New features:
 
 1.DLL infection
+
 2.The virus body in the infected file is now encrypted with RC4. The timestamp value of the target file is used as encryption key, which is 32 bits (4 bytes) long
+
 3.Deletes non PE files
+
 4.Crash the operating system every a hour
+
 5.uses Unicode, so the virus can infect files that has Unicode characters in their filename, such as Japanese
+
